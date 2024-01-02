@@ -18,3 +18,7 @@ https://www.youtube.com/watch?v=p_q8gy_jmP8
 	- getStaticProps for products
 	- ProductCard component with Rating
 
+4. Use Shopping Cart, React Hot Toast (- )
+	- shopping cart logic
+	- toast notifications
+	- adding to cart, displaying cart's content 

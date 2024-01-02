@@ -1,8 +1,19 @@
 import Image from "next/image";
 import Link from "next/link";
 import Rating from "./Rating";
+import { useShoppingCart, formatCurrencyString } from "use-shopping-cart";
+import toast from "react-hot-toast";
 
 export default function ProductCard({ product, index }) {
+  const { addItem } = useShoppingCart();
+
+  function onAddToCart(event) {
+    event.preventDefault();
+    const id = toast.loading("Adding 1 item...");
+    addItem(product);
+    toast.success(`${product.name} added`, { id } )
+  }
+
   return (
     <Link
       href={`/products/${product.id}`}
@@ -23,9 +34,21 @@ export default function ProductCard({ product, index }) {
         <p className="font-semibold text-lg">{product.name}</p>
         <Rating />
         <div className="mt-4 flex items-center justify-between space-x-2">
-          <p className="text-gray-500">Price</p>
-          <p className="text-lg font-semibold">{product.price}</p>
-          <button className="border rounded-lg py-2 px-4">Add to Cart</button>
+          <div>
+            <p className="text-gray-500">Price</p>
+            <p className="text-lg font-semibold">
+              {formatCurrencyString({
+                currency: product.currency,
+                value: product.price,
+              })}
+            </p>
+          </div>
+          <button
+            onClick={onAddToCart}
+            className="border rounded-lg py-2 px-4 "
+          >
+            Add to Cart
+          </button>
         </div>
       </div>
     </Link>
