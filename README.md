@@ -8,3 +8,10 @@ https://www.youtube.com/watch?v=p_q8gy_jmP8
 	- import images and product information
 	- create layout component with font
 	- add to layout header with logo and footer
+
+2. Set Up and Connect Stripe (- 45:00)
+	- create stripe account, project
+	- import from data and create products
+	- https://stripe.com/docs/api/products/create 
+
+
