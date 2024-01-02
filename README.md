@@ -14,4 +14,7 @@ https://www.youtube.com/watch?v=p_q8gy_jmP8
 	- import from data and create products
 	- https://stripe.com/docs/api/products/create 
 
+3. Fetching and Displaying Products (- 1:10:00)
+	- getStaticProps for products
+	- ProductCard component with Rating
 
