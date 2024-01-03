@@ -2,7 +2,10 @@
 
 #### Full Stack Online Store with React, Next 13, TailwindCSS, & Stripe
 
-https://www.youtube.com/watch?v=p_q8gy_jmP8
+[![Full Stack Online Store with React, Next 13, TailwindCSS, & Stripe](/public/tutorial-image.png 'Tutorial Image')](https://www.youtube.com/watch?v=p_q8gy_jmP8)
+
+
+
 
 1. Set Up Nextjs Application with Layout (0:00 - 35:00)
 	- import images and product information
@@ -29,3 +32,6 @@ https://www.youtube.com/watch?v=p_q8gy_jmP8
 	- managing product quantity
 
 6. Design Individual Product Page (- 1:40:00)
+
+7. Functionality of Product Page (- 1:45:00) 
+	- increase and decrease quantity, add to cart
