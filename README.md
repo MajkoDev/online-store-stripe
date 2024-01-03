@@ -28,3 +28,4 @@ https://www.youtube.com/watch?v=p_q8gy_jmP8
 	- getStaticPaths, getStaticProps
 	- managing product quantity
 
+6. Design Individual Product Page (- 1:40:00)
