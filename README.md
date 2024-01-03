@@ -43,3 +43,8 @@
 	- send data to api route
 	- handler function for post request 
 	- checkout session to stripe
+
+10. Success Page (- 2:40:00)
+	- design success page
+	- three states: error, loading, success
+	- api endpoint to (get) retrieve checkout session (based on id)
