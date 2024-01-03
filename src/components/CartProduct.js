@@ -22,6 +22,7 @@ export default function CartProduct({ product }) {
             src={product.image}
             alt={product.name}
             fill
+            sizes="100%"
             style={{ objectFit: "contain" }}
           />
         </div>

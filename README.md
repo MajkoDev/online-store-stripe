@@ -38,3 +38,8 @@
 8. Building Cart Page (- 2:07:00)
 	- CartProduct component
 	- change quantity and remove item(s)
+
+9. Checkout Functionality (- 2:25:00)
+	- send data to api route
+	- handler function for post request 
+	- checkout session to stripe
