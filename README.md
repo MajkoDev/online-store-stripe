@@ -6,7 +6,6 @@
 
 
 
-
 1. Set Up Nextjs Application with Layout (0:00 - 35:00)
 	- import images and product information
 	- create layout component with font
@@ -35,3 +34,7 @@
 
 7. Functionality of Product Page (- 1:45:00) 
 	- increase and decrease quantity, add to cart
+
+8. Building Cart Page (- 2:07:00)
+	- CartProduct component
+	- change quantity and remove item(s)
